@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# Script to install useful items after a fresh Linux OS install (CentOS/RHEL)
+
 if [ `id -u` -gt 0 ]; then
   echo You must be root to run this script!
 	exit
